@@ -450,6 +450,34 @@ footer a{
   margin-bottom: 5px;
 }
 
+/********************************************************* MESSAGE */
+
+.message{
+  margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.message .block{
+  padding: 40px;
+}
+
+.message small{
+  font-size: 12px;
+}
+
+.message span{
+  color:#2F7D82;
+  font-size: 100px;
+}
+
+.message h2{
+  text-align: center;
+  font-size: 50px;
+}
+
+
+
 /********************************************************* MOBILE */
 
 @media (max-width: 991px) {
