@@ -46,13 +46,9 @@
               les informations nécessaires pour une prise de contact sont ci-dessous.</p>
         </div>
         <div class="col-md-5 col-md-offset-1 block block-13">
-            <form name="contact" method="post" action="//formspree.io/amandineboeur@gmail.com">
-              <!-- email's subject -->
+            <form name="contact" method="post" action="https://formspree.io/amandineboeur@gmail.com">
               <input type="hidden" name="_subject" value="Nouveau mail du site web !" />
-              <!-- "Thank You" page -->
-              <input type="hidden" name="_next" value="http://piwys.github.io/dev/amandineboeur.be/message.html" />
-              <!--"honeypot" field to avoid spam by fooling scrapers-->
-              <!--<input type="text" name="_gotcha" style="display:none" />-->
+              <input type="hidden" name="_next" value="/message.html" />
               <input name="Autheur" required="required" placeholder="Votre nom"><br/>
               <input name="Email" type="email" required="required" placeholder="Votre adresse email"><br/>
               <textarea name="Message" rows="5" required="required" placeholder="Votre message"></textarea><br/>
